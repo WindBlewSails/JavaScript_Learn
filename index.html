@@ -16,15 +16,26 @@
 </head>
 
 <body>
-    <div  class="jumbotron" style=" background-image:public/img/bluesky.jpg">
+    <div class="jumbotron" style="background:#68B5E9  no-repeat fixed 70% 120%; height:350px; ">
         <div class="container">
-            <h1 >JavaScript编程入门</h1>
+            <h1 style="color:white;">我们的心里话
+            </h1>
+            <!-- <img style="width: 80px; height: 80px; margin:0 0 0 0em; " src="https://ws1.sinaimg.cn/large/006tKfTcgy1fi7s7vo8y0j30hs0hsaay.jpg"> -->
+            <h2
+                style="color:white;">JavaScript 编程入门课</h2>
+                <p style="color:white;padding:20px 0 0 2em;">
+                    <!-- style="color:white;padding:0 0 0 120px;margin:-80px 0 0 0 ;" -->
+                    我想带领大家感受编程语言JavaScript的魅力，与同学们一起成长我感到非常的荣幸！
+                </p>
+                <p style="color:white;padding:20px 0 0 100px;text-align:right;">
+                    —— 徐高阳 老师
+                </p>
         </div>
-    </div>  
+    </div>
     <div class="container">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">我们的心里话</h3>
+                <h3 class="panel-title">同学们的心里话</h3>
             </div>
             <div id="oursword" class="panel-body">
                 <div class="words-pannel" v-for="item in wordsList">
@@ -39,7 +50,7 @@
                             </h4>
                         </li>
                         <!-- 昵称和心里话 -->
-                        <li class="list-group-item" style="backgraundcolor:">
+                        <li class="list-group-item">
 
                             <p>{{ item.words }}</p>
                         </li>
